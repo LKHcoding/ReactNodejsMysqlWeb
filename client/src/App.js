@@ -74,35 +74,35 @@ function App() {
   return (
     <div className="App">
       <div className="information">
-        <label>Name:</label>
+        <label>이름:</label>
         <input
           type="text"
           onChange={(event) => {
             setName(event.target.value);
           }}
         ></input>
-        <label>Age:</label>
+        <label>나이:</label>
         <input
           type="number"
           onChange={(event) => {
             setAge(event.target.value);
           }}
         ></input>
-        <label>Country:</label>
+        <label>국적:</label>
         <input
           type="text"
           onChange={(event) => {
             setCountry(event.target.value);
           }}
         ></input>
-        <label>Position:</label>
+        <label>직책:</label>
         <input
           type="text"
           onChange={(event) => {
             setPosition(event.target.value);
           }}
         ></input>
-        <label>Wage (year):</label>
+        <label>연봉 (year):</label>
         <input
           type="number"
           onChange={(event) => {
